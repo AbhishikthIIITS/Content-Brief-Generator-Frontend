@@ -15,13 +15,13 @@ Frontend URL: [Content Brief Generator Frontend](https://content-brief-generator
  - **Error Handling**: User-friendly messages in case of API errors or failures.
 
 # 🛠️ Technologies Used
-# - **React**: Component-based UI framework.
-# - **Tailwind CSS**: Utility-first CSS framework for styling.
-# - **React Helmet**: For managing the document head and meta tags.
+ - **React**: Component-based UI framework.
+ - **Tailwind CSS**: Utility-first CSS framework for styling.
+ - **React Helmet**: For managing the document head and meta tags.
 
 # 📝 Prerequisites
-# - Node.js installed (v14+ recommended)
-# - A compatible browser (Google Chrome, Firefox, etc.)
+ - Node.js installed (v14+ recommended)
+ - A compatible browser (Google Chrome, Firefox, etc.)
 
 # 📦 Installation and Setup
 # 1. Clone the repository:
@@ -40,38 +40,38 @@ npm start
 http://localhost:3000
 
 # 🔗 Backend Integration
-# This frontend interacts with the backend API hosted at:
+ This frontend interacts with the backend API hosted at:
 
 # Backend URL
-# The /generate-brief endpoint processes the provided topic and returns the generated content brief.
+ The /generate-brief endpoint processes the provided topic and returns the generated content brief.
 
 # 🖼️ Folder Structure
-# content-brief-generator-frontend/
-# ├── public/            # Public assets
-# ├── src/               # Source code
-# │   ├── App.js         # Main component
-# │   ├── index.js       # Entry point
-# │   └── styles/        # Styling files
-# ├── README.md          # Project documentation
-# ├── package.json       # Project configuration
-# └── tailwind.config.js # Tailwind CSS configuration
+ content-brief-generator-frontend/
+ ├── public/            # Public assets
+ ├── src/               # Source code
+ │   ├── App.js         # Main component
+ │   ├── index.js       # Entry point
+ │   └── styles/        # Styling files
+ ├── README.md          # Project documentation
+ ├── package.json       # Project configuration
+ └── tailwind.config.js # Tailwind CSS configuration
 
 # 🚧 Key Components
-# - App.js: Contains the main logic for user input, API calls, and rendering the output.
-# - renderFormattedContent(): Formats the generated content with headings, subheadings, and links.
-# - Popup Handling: Displays a modal popup while the content is loading.
+ - App.js: Contains the main logic for user input, API calls, and rendering the output.
+ - renderFormattedContent(): Formats the generated content with headings, subheadings, and links.
+ - Popup Handling: Displays a modal popup while the content is loading.
 
 # 🔍 How to Use
-# - Navigate to the live demo or run the project locally.
-# - Enter a topic (e.g., "The Future of Remote Work") in the input field.
-# - Click the "Generate" button.
-# - Wait for the content brief to be generated and displayed on the screen.
+ - Navigate to the live demo or run the project locally.
+ - Enter a topic (e.g., "The Future of Remote Work") in the input field.
+ - Click the "Generate" button.
+ - Wait for the content brief to be generated and displayed on the screen.
 
 # 🛡️ Error Handling
-# - If the backend API fails to respond, an error message is displayed to the user.
-# - Logs errors in the console for debugging purposes.
+ - If the backend API fails to respond, an error message is displayed to the user.
+ - Logs errors in the console for debugging purposes.
 
 # 📄 License
-# This project is licensed under the MIT License. Feel free to use, modify, and distribute it as per the license terms.
+ This project is licensed under the MIT License. Feel free to use, modify, and distribute it as per the license terms.
 
 # 🎉 Happy Generating!
