@@ -45,17 +45,6 @@ http://localhost:3000
 ## Backend URL
  The /generate-brief endpoint processes the provided topic and returns the generated content brief.
 
-## 🖼️ Folder Structure
- content-brief-generator-frontend/
- ├── public/
- ├── src/               # Source code
- │   ├── App.js         # Main component
- │   ├── index.js       # Entry point
- │   └── styles/        # Styling files
- ├── README.md          # Project documentation
- ├── package.json       # Project configuration
- └── tailwind.config.js # Tailwind CSS configuration
-
 ## 🚧 Key Components
  - App.js: Contains the main logic for user input, API calls, and rendering the output.
  - renderFormattedContent(): Formats the generated content with headings, subheadings, and links.
