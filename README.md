@@ -47,7 +47,7 @@ http://localhost:3000
 
 ## 🖼️ Folder Structure
  content-brief-generator-frontend/
- ├── public/            # Public assets
+ ├── public/
  ├── src/               # Source code
  │   ├── App.js         # Main component
  │   ├── index.js       # Entry point
