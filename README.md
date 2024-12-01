@@ -40,7 +40,7 @@ npm start
 http://localhost:3000
 
 ## 🔗 Backend Integration
- This frontend interacts with the backend API hosted at:
+ This frontend interacts with the backend API hosted at: Backend URL: [Content Brief Generator Backend](https://content-brief-generator-backend-1.onrender.com)
 
 ## Backend URL
  The /generate-brief endpoint processes the provided topic and returns the generated content brief.
