@@ -13,7 +13,7 @@ function App() {
     setShowPopup(true);
 
     try {
-      const response = await fetch("http://localhost:5000/generate-brief", {
+      const response = await fetch("https://content-brief-generator-backend-1.onrender.com/generate-brief", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ topic }),
